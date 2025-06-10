@@ -33,11 +33,11 @@ const Categories: React.FC = () => {
     if (name === 'Pizza') {
       router.push('/(tabs)/screens/pizza'); 
       // Se a categoria for "Pizza", navega para a tela da pizzaria usando a rota definida no projeto.
-    } else if (name ==='sushi'){
+    } else if (name ==='Sushi'){
       router.push('/(tabs)/screens/sushi');
-    } else if (name ==='Burger King'){
+    } else if (name ==='Hambúrguer'){
       router.push('/(tabs)/screens/hamburguer');
-    } else if (name ==='Restaurante ChinaFoood!'){
+    } else if (name ==='Chinesa'){
       router.push('/(tabs)/screens/chinesa');
     }
   };
